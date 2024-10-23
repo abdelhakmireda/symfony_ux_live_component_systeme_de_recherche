@@ -24,18 +24,25 @@ npm run watch
 Et voilà 🎉, Symfony UX Live Component est prêt à être utilisé pour rendre vos interfaces interactives en temps réel !
 
 ## Testez Symfony UX Live Component avec Docker ! 🐳
-Si vous avez déjà un projet Symfony ou souhaitez en créer un nouveau pour tester Symfony UX Live Component 💡, Docker est votre meilleur ami 🤝 ! Il permet de configurer rapidement un environnement complet (PHP 🐘, MySQL 🐬, Symfony 🌐, etc.) sans vous soucier des détails techniques de votre machine locale.
+Si vous avez déjà un projet Symfony ou souhaitez en créer un nouveau pour tester Symfony UX Live Component 💡, Docker est votre meilleur ami 🤝 !
+Il permet de configurer rapidement un environnement complet (PHP 🐘, MySQL 🐬, Symfony 🌐, etc.) sans vous soucier des détails techniques de votre machine locale.
 
-Envie d’intégrer un Live Component dans un projet existant ? 🎯 Vous pouvez le faire sans une seule ligne de JavaScript ! Il suffit de l’ajouter dans votre projet et de commencer à l’utiliser, comme illustré plus bas.
+Envie d’intégrer un Live Component dans un projet existant ? 
+🎯 Vous pouvez le faire sans une seule ligne de JavaScript ! 
+Il suffit de l’ajouter dans votre projet et de commencer à l’utiliser, comme illustré plus bas.
 
-Si vous préférez créer un nouveau projet pour tester Symfony UX Live Component, suivez mon guide Docker 🐳 sur GitHub ! Mon dépôt fournit toutes les étapes nécessaires pour configurer un projet Symfony avec Live Component en quelques minutes ⏱️.
+Si vous préférez créer un nouveau projet pour tester Symfony UX Live Component, suivez mon guide Docker 🐳 sur GitHub !
+Mon dépôt fournit toutes les étapes nécessaires pour configurer un projet Symfony avec Live Component en quelques minutes ⏱️.
 
-👉 Mon repository
+👉 [Mon Repository GitHub](https://github.com/abdelhakmireda/Environnement-D-veloppement-Docker-Symfony) 📦.
 
 ## Utilisation de Symfony UX Live Component : Recherche en temps réel 🔍
+
 J'ai utilisé Symfony UX Live Component pour créer un système de recherche en temps réel des utilisateurs 👥. 
 Grâce à cette fonctionnalité, vous pouvez rechercher un utilisateur et afficher les résultats instantanément 🕒, sans recharger la page 🌐.
+
 ### 📜 Composant PHP :
+
 ```bash
 // src/Components/UserSearchComponent.php
 namespace App\Twig\Components;
@@ -65,6 +72,7 @@ class UserSearch
 ```
 
 ### 🔍 Requête dans le repository avec des champs personnalisés :
+
 ```bash
 // src/Repository/UserRepository.php
 public function findByQuery(string $query): array
@@ -76,7 +84,9 @@ public function findByQuery(string $query): array
         ->getResult();
 }
 ```
+
 ### 🌐 Vue Twig :
+
 ```bash
 {# templates/components/UserSearch.html.twig #}
 <div {{ attributes }}>
@@ -109,8 +119,11 @@ public function findByQuery(string $query): array
 
 ## Conclusion 🎯
 
-En résumé, Symfony UX Live Component vous permet de créer des applications réactives sans complexité supplémentaire. Que vous ayez un projet Symfony déjà existant ou que vous souhaitiez expérimenter avec ses fonctionnalités via Docker 🐳, vous pouvez facilement mettre en place un système de recherche en temps réel sans écrire une seule ligne de JavaScript 💻.
+En résumé, Symfony UX Live Component vous permet de créer des applications réactives sans complexité supplémentaire. 
+Que vous ayez un projet Symfony déjà existant ou que vous souhaitiez expérimenter avec ses fonctionnalités via Docker 🐳, vous pouvez facilement mettre en place un système de recherche en temps réel sans écrire une seule ligne de JavaScript 💻.
 
-Utiliser Docker simplifie également la configuration de votre environnement et vous permet de démarrer rapidement. N’hésitez pas à suivre mon guide sur GitHub pour vous lancer dans cette nouvelle aventure !
+Utiliser Docker simplifie également la configuration de votre environnement et vous permet de démarrer rapidement. 
+N’hésitez pas à suivre mon guide sur GitHub pour vous lancer dans cette nouvelle aventure !
 
-👉Mon repository GitHub pour Docker + Symfony (https://github.com/abdelhakmireda/Environnement-D-veloppement-Docker-Symfony/edit/Dev/README.md)
+👉[Mon Repository GitHub](https://github.com/abdelhakmireda/Environnement-D-veloppement-Docker-Symfony) 📦.
+
