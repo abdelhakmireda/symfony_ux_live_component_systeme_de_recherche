@@ -4,10 +4,8 @@ Ce guide vous montre comment utiliser **Symfony UX** Live Component pour créer 
 
 ## Qu'est-ce que Symfony UX Live Component ? 🧩
 
-**Symfony UX Live Component** est une solution ultra pratique permettant de créer des **interfaces réactives** et **dynamiques** sans écrire une seule ligne de **JavaScript** 🖥️. Inspiré par **Livewire** (pour **Laravel**) et **Phoenix LiveView** ⚡, **Symfony UX Live Component** permet d’interagir en **temps réel** ⏱️ avec vos utilisateurs, tout en restant sur du code **PHP** 🐘 et **Twig** 🧶.
-
-Avec cette approche, plus besoin d’**AJAX** 🚀 ! Tout se passe côté **serveur**, ce qui simplifie le développement et la gestion des **composants interactifs**. **Symfony UX Live Component** est parfait pour les développeurs souhaitant créer des **interfaces dynamiques** sans se plonger dans des technologies front-end complexes.
-
+**Symfony UX Live Component** est une solution pratique pour créer des interfaces réactives sans écrire de **JavaScript** 🖥️. Inspiré de **Livewire et Phoenix LiveView** ⚡, il permet d’interagir en temps réel ⏱️ avec les utilisateurs, en utilisant uniquement PHP 🐘 et Twig 🧶.
+Plus besoin d’AJAX 🚀, tout se fait côté serveur, simplifiant ainsi le développement d’interfaces dynamiques sans recourir à des technologies front-end complexes.
 
 ## Installez Symfony UX Live Component 🛠️
 
@@ -27,15 +25,9 @@ npm run watch
 Et voilà 🎉, **Symfony UX** Live Component est prêt à être utilisé pour rendre vos interfaces interactives en temps réel !
 
 ## Testez Symfony UX Live Component avec Docker ! 🐳
-Si vous avez déjà un projet Symfony ou souhaitez en créer un nouveau pour tester **Symfony UX Live Component** 💡, **Docker** est votre meilleur ami 🤝 !
-Il permet de configurer rapidement un environnement complet (**PHP** 🐘, **MySQL** 🐬, **Symfony** 🌐, etc.) sans vous soucier des détails techniques de votre machine locale.
-
-Envie d’intégrer un Live Component dans un projet existant ? 
-🎯 Vous pouvez le faire sans une seule ligne de **JavaScript** ! 
-Il suffit de l’ajouter dans votre projet et de commencer à l’utiliser, comme illustré plus bas.
-
-Si vous préférez créer un nouveau projet pour tester **Symfony UX Live Component**, **suivez mon guide Docker 🐳 sur GitHub !**
-Mon dépôt fournit toutes les étapes nécessaires pour configurer un projet Symfony avec Live Component en quelques minutes ⏱️.
+Que ce soit pour un projet existant ou un nouveau 💡, **Docker** permet de configurer rapidement un environnement complet (**PHP** 🐘, **MySQL** 🐬, **Symfony** 🌐) sans souci technique local.
+Intégrez un Live Component sans écrire de JavaScript 🎯, ajoutez-le simplement à votre projet.
+Pour un nouveau projet, suivez **mon guide Docker** 🐳 sur GitHub et configurez Symfony avec **Live Component** en quelques minutes ⏱️.
 
 👉 [Mon Repository GitHub](https://github.com/abdelhakmireda/Environnement-D-veloppement-Docker-Symfony) 📦.
 
@@ -122,11 +114,8 @@ public function findByQuery(string $query): array
 
 ## Conclusion 🎯
 
-En résumé, **Symfony UX Live Component** vous permet de créer des applications réactives sans complexité supplémentaire. 
-Que vous ayez un projet Symfony déjà existant ou que vous souhaitiez expérimenter avec ses fonctionnalités via Docker 🐳, vous pouvez facilement mettre en place un système de recherche en temps réel sans écrire une seule ligne de JavaScript 💻.
-
-Utiliser Docker simplifie également la configuration de votre environnement et vous permet de démarrer rapidement. 
-N’hésitez pas à suivre mon guide sur GitHub pour vous lancer dans cette nouvelle aventure !
+**Symfony UX Live Component** permet de créer des applications réactives sans complexité. Que ce soit pour un projet existant ou avec Docker 🐳, vous pouvez facilement mettre en place une recherche en temps réel sans JavaScript 💻.
+Docker simplifie la configuration, alors suivez mon guide GitHub et lancez-vous dans cette aventure !
 
 👉[Mon Repository GitHub](https://github.com/abdelhakmireda/Environnement-D-veloppement-Docker-Symfony) 📦.
 
